@@ -55,12 +55,12 @@ function changeCurrency () {
 
     if (currencySelect.value == "dolar") {
         currencyName.innerHTML = "Dólar Americano"
-        currencyImg.scr = "./assets/dolar.png"
+        currencyImg.scr = "dolar.png"
     }
 
     if (currencySelect.value == "euro") {
         currencyName.innerHTML = "Euro"
-        currencyImg.src = './assets/euro.png'
+        currencyImg.src = 'euro.png'
         
     }
 
